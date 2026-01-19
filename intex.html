@@ -3,71 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/index.css">
+    <title>Jesudhas Dharvin - Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-        <h1>Hi I`am <span>Jesudhas   <br>Dharvin</span></h1>
-        <p>A Passionate Developer & EEE Diploma Graduate bridging the gap between Hardware Logic and Software Solutions</p>
+    <nav class="navbar">
+        <div class="logo">Jesudhas Dharvin</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
         </div>
-         <div class="image">
-            <img src="/assest/dharvin.jpg" alt="Jesudhas Dharvin">
+    </nav>
+
+    <div class="container" id="home">
+        <div class="content">
+            <h1>Hi I'm <span>Jesudhas   <br>Dharvin</span></h1>
+            <p>A Passionate Developer & EEE Diploma Graduate bridging the gap between Hardware Logic and Software Solutions</p>
+        </div>
+         <div class="image hero-image">
+            <img src="./assest/DHAS.jpg" alt="Jesudhas Dharvin">
          </div>
     </div>
-    <div class="box">
-        <h2>About Me</h2>
-            <div class="item">
-               <p>My curiosity for how systems work led me into the world of programming.
-                 Currently, I am focused on building clean, responsive, and functional web applications
-                using HTML, CSS, and JavaScript, while leveraging Python for backend logic
-            I hold a Diploma in Electrical and Electronics Engineering, which gave me a strong foundation in logic, circuits, and problem-solving.</p>
 
-            </div>
+    <section class="about-section" id="about">
+      <h1 class="about-title">ABOUT ME</h1>
+      <div class="title-line"></div>
+
+      <div class="about-card">
+        <p class="about-text">
+          I am a passionate Full Stack Developer with experience in building responsive
+          and accessible web applications. I love solving complex problems and learning
+          new technologies. My goal is to create impactful digital solutions that provide
+          value to users.
+        </p>
+
+        <div class="stats-single">
+          <h2>1</h2>
+          <span>PROJECT COMPLETED</span>
         </div>
-    <div class="box">
-        <h2>My Project</h2>
-            <div class="item">
-                <h3>Static Web Page </h3>
-               <a href="https://jdking46.github.io/Blood_buddies/">Blood Buddies</a>
-                <br>
-                <h3>Full Stack Web Page </h3>
-               <a href="https://jdking46.github.io/Life-Savers/">Life Savers</a>
-            </div>
-        </div>
-    <div class="box">
-        <h2>Technical Skills</h2>
-            <div class="item">
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                </ul>   
+      </div>
+    </section>
 
-            </div>
+    <section class="experience-section" id="education">
+
+      <h1 class="title">EDUCATION</h1>
+      <div class="title-line"></div>
+
+      <div class="timeline">
+        <div class="vertical-line"></div>
+
+        <div class="card left">
+          <span class="date">2018 – 2019</span>
+          <h3>10th COMPLETED</h3>
         </div>
 
-    
-    <div class="box">
-        <h2>Education</h2>
-            <div class="item">
-               <p>Diploma in Electrical and Electronics Engineering
+        <div class="card right">
+          <span class="date">2021 – 2022</span>
+          <h3>12th COMPLETED</h3>
+        </div>
 
-[Vivekananda polytechic collage  ], [2022-2025]</p>
-               <p>
+        <div class="card bottom">
+          <h3>Diploma in Electrical and Electronics Engineering</h3>
+          <p>(Vivekananda Polytechnic College)</p>
+          <p>2022 – 2025</p>
+        </div>
 
-Key Focus: Circuit Analysis, Digital Electronics, Microcontrollers.</p> 
+      </div>
+
+    </section>
+
+    <section class="skills-section" id="skills">
+      <h1 class="main-title">MY SKILLS</h1>
+
+      <div class="skills-grid">
+        <div class="skill-circle">
+          <h3>HTML</h3>
+          <span>80%</span>
+        </div>
+
+        <div class="skill-circle">
+          <h3>CSS</h3>
+          <span>75%</span>
+        </div>
+
+        <div class="skill-circle">
+          <h3>Python</h3>
+          <span>70%</span>
+        </div>
+
+        <div class="skill-circle">
+          <h3>PostgreSQL</h3>
+          <span>70%</span>
+        </div>
+
+        <div class="skill-circle">
+          <h3>Teamwork</h3>
+          <span>60%</span>
+        </div>
+
+        <div class="skill-circle">
+          <h3>Communication</h3>
+          <span>50%</span>
+        </div>
+
+        <div class="skill-circle">
+          <h3>JavaScript</h3>
+          <span>20%</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="fp-section" id="projects">
+
+      <h1>PROJECTS</h1>
+      <div class="fp-line"></div>
+
+      <div class="fp-grid">
+
+        <div class="fp-card">
+          <img src="/assest/web3.png" alt="E-Commerce Project">
+          <div class="fp-content">
+            <h2>BLOOD_BUDDIES</h2>
+            <p>
+             Blood Buddies is a initiative voluntary blood donation.
+            It helps connect donors with patients in need and saves lives during emergencies.
+            </p>
+            <div class="fp-tags">
+              <span class="fp-tag">HTML</span>
+              <span class="fp-tag">CSS</span>
             </div>
-     </div>
-   
-     </div> 
-     <footer class="footer">
-        <h3>contact me </h3>
-        <p>Mobile Number |1234567890</p>
+            <div class="fp-demo">
+              <a href="https://github.com/JDking46/Blood_buddies.git">Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="fp-card">
+          <img src="/assest/we1.png" alt="Chat App">
+          <div class="fp-content">
+            <h2>LIFE SAVERS</h2>
+            <p>
+             Life Savers focuses on helping people during medical and accident emergencies and is a fully free community service that provides
+            </p>
+            <div class="fp-tags">
+              <span class="fp-tag">HTML</span>
+              <span class="fp-tag">CSS</span>
+              <span class="fp-tag">PYTHON</span>
+            </div>
+            <div class="fp-demo">
+              <a href="https://github.com/JDking46/Life-Savers.git">Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="achievement-page" id="achievements">
+
+      <h1 class="page-title">MY ACHIEVEMENTS</h1>
+
+     <div class="section1 life-skills">
+  <h2>Life Skills</h2>
+
+  <div class="life-skill-card">
+    <div class="life-img">
+      <img src="assest/lif.jpeg" alt="Life Skill">
+    </div>
+
+    <div class="life-text">
+        <h4>Product building  </h4>
+      <p>
+        This emergency light was built by me and my teammates using a Tesla coil. It was created as a product building challenge for FSSA Academy. The project helped us learn teamwork, electronics, and real-world product development.
+      </p>
+    </div>
+  </div>
+</div>
+     <div class="section1 life-skills">
+  <div class="life-skill-card">
+    <div class="life-img">
+      <img src="assest/3rd (2).png" alt="Life Skill">
+    </div>
+
+    <div class="life-text">
+        <h4>Board Exam Second Rank</h4>
+      <p>
+
+
+I achieved Second Rank in my Board Examination, which was conducted by the Directorate of Technical Education, Tamil Nadu. This achievement is a result of my hard work, regular practice, and dedication to my studies. It encourages me to work harder and improve myself further
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+ <div class="section1 life-skills">
+
+  <div class="life-skill-card">
+    <div class="life-img">
+      <img src="assest/3rd (1).png" alt="Life Skill">
+    </div>
+
+    <div class="life-text">
+        <h4> Science Exhibition </h4>
+      <p>
+     
+
+I participated in the Inter College Science Exhibition and won Third Place. This achievement motivated me to explore science practically and develop innovative thinking. It was a valuable learning experience that improved my confidence and communication skills.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+     <div class="section1">
+        <h2>Sports</h2>
+        <div class="content1">
+          <div class="text">
+            <p>
+              Playing football and participating in athletic activities have greatly helped me improve my physical fitness, discipline, and teamwork skills. Regular training and competitions taught me the importance of hard work, perseverance, and sportsmanship. Being an athlete has also improved my focus, stamina, and stress management, which positively supports my academic performance and personal development.
+            </p>
+          </div>
+          <div class="images1">
+            <img src="assest/sp1.png" alt="">
+            <img src="assest/sp2.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="footer" id="contact">
+        <h3>CONTACT ME</h3>
+        <p>Mobile Number |6369060923</p>
         <p>Email address |dharvin@gmail.com</p>
     </footer>
+
 </body>
-</htm
+</html>
